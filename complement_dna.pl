@@ -1,4 +1,11 @@
 #!/usr/bin/perl/
+
+#####################################
+# First program I wrote.            #
+# It transcribes a DNA string to    #
+# its complimentary sequence.       #
+#####################################
+
 use strict;
 use warnings;
 my $dna_seq = "AAAACCCGGT";
