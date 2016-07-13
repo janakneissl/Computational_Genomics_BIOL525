@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+
+########################################
+# Simple program to transcribe DNA to  #
+# RNA string.                          #
+########################################
+
 use strict;
 use warnings;
 my $dna_seq = "GATGGAACTTGACTACGTAAATT";
