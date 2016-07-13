@@ -1,4 +1,11 @@
 #!/usr/bin/perl
+
+############################################
+# This program was created to teach us the #
+# basics of interacting with databases     #
+# using the DBI module in perl. 	   #
+############################################
+
 use strict;
 use warnings;
 # Load the database modules
