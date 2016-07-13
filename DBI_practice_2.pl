@@ -1,5 +1,11 @@
 #!usr/bin/perl
 
+###############################################
+# Further program to practice data extraction #
+# from a database using the DBI module in     #
+# perl to interact with mySQL database.       #
+###############################################
+
 use strict;
 use warnings;
 use DBI;
@@ -24,7 +30,7 @@ use DBD::mysql;
 		die();
 	}
 
-#assign the given names
+#assign the variable names to the input
 	$inputfile = $ARGV[0];
 	$db_table = $ARGV[1];
 	$outputfile = $ARGV[2];
